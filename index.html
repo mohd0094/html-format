@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--  CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css" >
+    <link rel="stylesheet" href="css/slick-theme.css" >
+    <link rel="stylesheet" href="css/custom.css" >
+    <link rel="stylesheet" href="css/responsive.css" >
+
+    <title>Bootstrap4</title>
+
+  </head>
+  <body>
+
+    <header class="headerSec">
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#">Navbar</a>
+
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+          </button>
+
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> 
+            </ul>
+          </div> 
+        </nav>
+    </header>
+
+    <main class="mainSec">
+      <h1 class="text-center text-primary m-4 m-4"><i class="fa fa-address-book-o" aria-hidden="true"></i></h1>
+
+      <div class="pt-5 pb-5 bg-danger">
+          <section class="variable slider">
+              <div>
+                <img src="http://placehold.it/350x300?text=1">
+              </div>
+              <div>
+                <img src="http://placehold.it/200x300?text=2">
+              </div>
+              <div>
+                <img src="http://placehold.it/100x300?text=3">
+              </div>
+              <div>
+                <img src="http://placehold.it/200x300?text=4">
+              </div>
+              <div>
+                <img src="http://placehold.it/350x300?text=5">
+              </div>
+              <div>
+                <img src="http://placehold.it/300x300?text=6">
+              </div>
+            </section>
+      </div>
+    </main>
+      
+    <footer class="footerSec">
+      
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/slick.js"></script>
+
+     <script type="text/javascript">
+    $(document).ready( function() {
+      $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });
+     
+    });
+  </script>
+  <style>
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+    .slick-slide {
+    margin: 0px 20px;
+}
+  </style>
+  </body>
+</html>
